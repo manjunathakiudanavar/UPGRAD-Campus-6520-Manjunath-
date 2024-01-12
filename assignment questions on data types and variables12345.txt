@@ -1,0 +1,75 @@
+Question 1:
+What is the difference between primitive data types and reference data types in Java? Provide examples for each.
+
+Solution:
+Primitive data types are basic data types provided by Java, such as int, double, char, etc., that store simple values. Reference data types, on the other hand, are used to store references to objects. Examples of primitive data types include:
+
+java
+Copy code
+int age = 25;       // Primitive data type
+double salary = 50000.50;
+char grade = 'A';
+Examples of reference data types:
+
+java
+Copy code
+String name = "John";   // Reference data type
+Scanner scanner = new Scanner(System.in);
+Question 2:
+Explain the difference between "int" and "double" data types in Java. Provide an example where using one type over the other would be appropriate.
+
+Solution:
+The "int" data type is used for integer values, while the "double" data type is used for floating-point or decimal values. An example where using one type over the other is appropriate:
+
+java
+Copy code
+int quantity = 5;       // For whole numbers
+double price = 19.99;   // For decimal numbers
+double totalPrice = quantity * price;
+System.out.println("Total Price: $" + totalPrice);
+In this example, using an "int" for quantity is appropriate because quantities are typically whole numbers. Using a "double" for the price is appropriate because prices can have decimal values.
+
+Question 3:
+How can you convert a primitive data type to another in Java? Provide an example.
+
+Solution:
+You can convert between primitive data types in Java using type casting. Here's an example:
+
+java
+Copy code
+int intValue = 10;
+double doubleValue = (double) intValue;  // Casting int to double
+System.out.println("Double Value: " + doubleValue);
+In this example, the "intValue" is cast to a double, allowing the conversion of an int to a double.
+
+Question 4:
+Explain the purpose of the "char" data type in Java. Provide an example where a "char" is used.
+
+Solution:
+The "char" data type in Java is used to store a single character. Here's an example:
+
+java
+Copy code
+char grade = 'A';   // Example of using char
+System.out.println("Grade: " + grade);
+In this example, the "char" data type is used to store the grade 'A'. Char is useful for storing single characters like letters, digits, or special symbols.
+
+Question 5:
+What is the role of variables in Java? Provide an example demonstrating the use of variables.
+
+Solution:
+Variables in Java are used to store and manage data in a program. They provide a way to refer to memory locations that hold data. Here's an example:
+
+java
+Copy code
+// Example demonstrating the use of variables
+int num1 = 10;
+int num2 = 5;
+int sum = num1 + num2;
+
+System.out.println("Sum: " + sum);
+In this example, the variables num1, num2, and sum are used to store and manipulate numerical data. The values are stored in these variables, and the sum is calculated and printed to the console. Variables provide a way to work with data in a flexible and dynamic manner.
+
+
+
+
