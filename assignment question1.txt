@@ -1,0 +1,9 @@
+what are sequential steps use git commands ?
+solution:- first you have to create git hub account and install git in your device 
+after that make sure your git and git hub is linked and open up vs code select newfile 
+go to that particular file and open terminal and use your first command git config add 
+all the git commands after that youll have to intialise the git the very first command will 
+"git status" if this command appears as no fatal repository creted then you hAVE TO ADD THE FILE 
+TO STAGING AREA for that you have use "git --a"
+after that write the code and save it in the last give the command of commit 
+git commit -m 
