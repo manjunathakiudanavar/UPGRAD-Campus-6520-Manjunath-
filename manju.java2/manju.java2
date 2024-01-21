@@ -1,0 +1,6 @@
+class second program{
+    public stativ void main(String[] args){
+        long myphonenumber = 6362813980L;
+        system.print.ln(myphonenumber)
+    }
+}
